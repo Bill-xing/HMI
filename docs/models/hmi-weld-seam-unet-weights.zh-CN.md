@@ -19,6 +19,7 @@ model_data/seam_unet.pth
 ## 发布资产
 
 - 公开包名：`hmi-weld-seam-unet-weights.zip`
+- 下载地址：https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-unet-weights.zip
 - 生成包大小：88 MB
 - SHA256：`1926b5da3c4f39f344f57062a4824ae5af4630819dfb60b9ad884f03bdcef180`
 

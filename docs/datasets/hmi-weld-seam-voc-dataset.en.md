@@ -36,6 +36,7 @@ test: 0
 ## Release Asset
 
 - Public package name: `hmi-weld-seam-voc-dataset.zip`
+- Download URL: https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-voc-dataset.zip
 - Generated package size: 725 MB
 - SHA256: `916616ae5c9fa2015e956e0f08acf21ad36ac43d88835d201eaabd6597af28eb`
 - Temporary sync files such as `*.baiduyun.uploading.cfg` are excluded from the release package.

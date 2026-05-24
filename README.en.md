@@ -152,6 +152,11 @@ hmi-weld-seam-voc-dataset/
 
 See [docs/datasets/hmi-weld-seam-voc-dataset.en.md](docs/datasets/hmi-weld-seam-voc-dataset.en.md) for the dataset and [docs/models/hmi-weld-seam-unet-weights.en.md](docs/models/hmi-weld-seam-unet-weights.en.md) for the weight package. The dataset uses CC BY 4.0; the model weights use Apache License 2.0.
 
+Download links:
+
+- [hmi-weld-seam-voc-dataset.zip](https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-voc-dataset.zip)
+- [hmi-weld-seam-unet-weights.zip](https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-unet-weights.zip)
+
 ## LeArm STL Model
 
 The digital-twin robot view requires LeArm STL files, but this repository does not provide those files.

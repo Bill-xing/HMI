@@ -152,6 +152,11 @@ hmi-weld-seam-voc-dataset/
 
 数据集说明见 [docs/datasets/hmi-weld-seam-voc-dataset.zh-CN.md](docs/datasets/hmi-weld-seam-voc-dataset.zh-CN.md)，权重说明见 [docs/models/hmi-weld-seam-unet-weights.zh-CN.md](docs/models/hmi-weld-seam-unet-weights.zh-CN.md)。数据集采用 CC BY 4.0，权重采用 Apache License 2.0。
 
+下载地址：
+
+- [hmi-weld-seam-voc-dataset.zip](https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-voc-dataset.zip)
+- [hmi-weld-seam-unet-weights.zip](https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-unet-weights.zip)
+
 ## LeArm STL 模型
 
 本项目的机械臂数字孪生显示需要 LeArm 各关节 STL 文件，但仓库不提供这些模型文件。

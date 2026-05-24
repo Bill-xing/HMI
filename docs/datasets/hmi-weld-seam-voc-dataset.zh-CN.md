@@ -36,6 +36,7 @@ test: 0
 ## 发布资产
 
 - 公开包名：`hmi-weld-seam-voc-dataset.zip`
+- 下载地址：https://github.com/Bill-xing/HMI/releases/download/v0.1.0/hmi-weld-seam-voc-dataset.zip
 - 生成包大小：725 MB
 - SHA256：`916616ae5c9fa2015e956e0f08acf21ad36ac43d88835d201eaabd6597af28eb`
 - 发布包已排除 `*.baiduyun.uploading.cfg` 等临时同步文件。
