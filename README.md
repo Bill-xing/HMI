@@ -14,6 +14,18 @@
 - STL：LeArm 机械臂 STL/结构模型不随仓库提供，需要用户自行准备有权使用的模型文件。
 - 可执行包：公开发布包默认不包含 STL 文件；本地私有打包可显式启用 STL 复制。
 
+## 许可证
+
+本仓库不声明一个覆盖全部内容的统一许可证，各部分边界如下：
+
+| 内容 | 许可证 / 状态 |
+| --- | --- |
+| 焊缝分割数据集 | [CC BY 4.0](docs/licenses/dataset-cc-by-4.0.md) |
+| 自训练 UNet 权重 | [Apache License 2.0](docs/licenses/model-weights-apache-2.0.md) |
+| LeArm STL/结构模型 | 不随仓库提供，不授权二次分发 |
+| 第三方参考项目 | 见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) |
+| 仓库代码整体 | 当前不声明统一开源许可证 |
+
 ## 功能
 
 - Qt 上位机界面
@@ -136,7 +148,7 @@ hmi-weld-seam-voc-dataset/
         └── Segmentation/
 ```
 
-数据集说明见 `docs/datasets/hmi-weld-seam-voc-dataset.md`，权重说明见 `docs/models/hmi-weld-seam-unet-weights.md`。公开发布数据集或权重前，应先明确对应许可证。
+数据集说明见 `docs/datasets/hmi-weld-seam-voc-dataset.md`，权重说明见 `docs/models/hmi-weld-seam-unet-weights.md`。数据集采用 CC BY 4.0，权重采用 Apache License 2.0。
 
 ## LeArm STL 模型
 
@@ -227,4 +239,4 @@ $env:HMI_INCLUDE_LOCAL_STL_ASSETS = "1"
 - LeArm 机械臂 STL/结构模型：本仓库只说明适配方式和期望文件名，不提供 STL 文件。
 - 模型权重：`model_data/seam_unet.pth` 为本项目任务场景下训练得到的权重文件，默认不提交到 Git 仓库。
 
-本仓库当前不声明一个覆盖全部内容的统一开源许可证。公开发布前应确认代码、训练数据、模型权重、STL 资源和第三方依赖的许可条件。
+本仓库当前不声明一个覆盖全部内容的统一开源许可证。公开发布前仍应确认代码、STL 资源和第三方依赖的许可条件；数据集与权重的许可证以上述说明为准。

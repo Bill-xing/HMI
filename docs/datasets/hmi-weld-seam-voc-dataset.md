@@ -35,9 +35,15 @@ test: 0
 
 - Public package name: `hmi-weld-seam-voc-dataset.zip`
 - Generated package size: 725 MB
-- SHA256: `3884d5defca276ea33f0f1777610d7ebe2c90f8c5a6ea4e8c8a1011ed691895a`
+- SHA256: `7be92087bfc5e2bd8afc039057e50c3953694128efe48e21f6bda90b22019970`
 - Temporary sync files such as `*.baiduyun.uploading.cfg` are excluded from the release package.
 
 ## License
 
-The dataset was collected by the project author. Choose and document the intended dataset license before publishing the dataset asset publicly.
+The dataset was collected by the project author and is released under the Creative Commons Attribution 4.0 International License.
+
+- SPDX identifier: `CC-BY-4.0`
+- License notice: `docs/licenses/dataset-cc-by-4.0.md`
+- License URL: https://creativecommons.org/licenses/by/4.0/
+
+Users may share and adapt the dataset, including for commercial use, provided that appropriate attribution is given and changes are indicated.
