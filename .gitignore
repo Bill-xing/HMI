@@ -54,3 +54,5 @@ miou_out/
 *.onnx
 model_data/*
 !model_data/README.md
+!model_data/README.zh-CN.md
+!model_data/README.en.md

@@ -101,7 +101,9 @@ if ($env:HMI_INCLUDE_LOCAL_STL_ASSETS -ne "1") {
 }
 
 New-Item -ItemType Directory -Force -Path (Join-Path $RuntimeDir "model_data") | Out-Null
-Copy-Item (Join-Path $RootDir "model_data\README.md") (Join-Path $RuntimeDir "model_data\README.md")
+Get-ChildItem -Path (Join-Path $RootDir "model_data") -Filter "README*.md" | ForEach-Object {
+    Copy-Item $_.FullName (Join-Path $RuntimeDir "model_data\$($_.Name)")
+}
 $Weight = Join-Path $RootDir "model_data\seam_unet.pth"
 if (Test-Path $Weight) {
     Copy-Item $Weight (Join-Path $RuntimeDir "model_data\seam_unet.pth")

@@ -102,7 +102,11 @@ if [[ "${HMI_INCLUDE_LOCAL_STL_ASSETS:-0}" != "1" ]]; then
 fi
 
 mkdir -p "${RUNTIME_DIR}/model_data"
-install -m 0644 "${ROOT_DIR}/model_data/README.md" "${RUNTIME_DIR}/model_data/README.md"
+for model_doc in "${ROOT_DIR}"/model_data/README*.md; do
+  if [[ -f "${model_doc}" ]]; then
+    install -m 0644 "${model_doc}" "${RUNTIME_DIR}/model_data/$(basename "${model_doc}")"
+  fi
+done
 if [[ -f "${ROOT_DIR}/model_data/seam_unet.pth" ]]; then
   install -m 0644 "${ROOT_DIR}/model_data/seam_unet.pth" "${RUNTIME_DIR}/model_data/seam_unet.pth"
 else

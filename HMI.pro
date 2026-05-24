@@ -67,6 +67,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     res/binary/README.md \
+    res/binary/README.zh-CN.md \
+    res/binary/README.en.md \
     res/image/app.ico \
     res/image/bg.jpg
 
