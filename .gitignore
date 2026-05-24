@@ -1,0 +1,56 @@
+.DS_Store
+Thumbs.db
+
+# Qt Creator / build output
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+Makefile.*
+build-*/
+dist/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+
+# IDE files
+.idea/
+.vscode/
+
+# Python cache / virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Runtime output and local config
+config.json
+segmented_image.png
+logs/*
+!logs/.gitkeep
+scripts/hmi_local_env.sh
+!scripts/hmi_local_env.example.sh
+
+# Local LeArm STL assets are required for local visualization, but are not redistributed.
+res/binary/*.STL
+res/binary/*.stl
+!res/binary/README.md
+
+# Datasets and generated evaluation files
+VOCdevkit/
+/datasets/
+!docs/datasets/
+!docs/datasets/*.md
+Medical_Datasets/
+miou_out/
+
+# Model weights should be published through Releases or external storage.
+*.pth
+*.pt
+*.onnx
+model_data/*
+!model_data/README.md
